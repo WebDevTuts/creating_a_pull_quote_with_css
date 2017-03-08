@@ -30,6 +30,17 @@ blockquote::before, blockquote::after {
   position: absolute;
 }
 
+blockquote cite {
+  font-size: .6em;
+  font-style: normal;
+  display: block;
+  line-height: 16px;
+  color: #888;
+}
+
+blockquote cite a { color: inherit; }
+blockquote cite a:hover { color: #000; }
+
 @media screen and (max-width: 550px) {
 
 	header { height: 75px; background-position: center center; }
