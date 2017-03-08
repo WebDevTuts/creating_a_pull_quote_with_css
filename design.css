@@ -10,7 +10,16 @@ header h1 { width: 100%; text-align: center; color: #fff; text-transform: upperc
 
 article { max-width: 800px; padding: 10px 30px 20px 30px; width: 90%; margin: 0px auto; }
 
-
+blockquote {
+  width: 45%;
+  float: right;
+  margin: 0px 26px 20px 75px;
+  padding: 0px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Georgia', serif;
+  color: #0746bb;
+}
 
 
 
