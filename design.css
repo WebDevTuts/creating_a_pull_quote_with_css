@@ -13,7 +13,7 @@ article { max-width: 800px; padding: 10px 30px 20px 30px; width: 90%; margin: 0p
 blockquote {
   width: 45%;
   float: right;
-  margin: 0px 26px 20px 75px;
+  margin: 0px 26px 100px 75px;
   padding: 0px;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -36,6 +36,8 @@ blockquote cite {
   display: block;
   line-height: 16px;
   color: #888;
+  position: absolute;
+  top: 110%;
 }
 
 blockquote cite a { color: inherit; }
